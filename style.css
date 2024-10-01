@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Din Condensed";
+  src: url(/fonts/DIN-Condensed.woff) format("woff");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  font-family: "Din Condensed";
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 18px 64px 11px;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: 300px;
+  margin-right: 0;
+}
+
+.apply {
+  background-color: #4c64ff;
+  color: #ffffff;
+  font-family: monospace;
+  height: 35px;
+  width: 80px;
+  border-radius: 15px;
+  border: 1px solid #4c64ff;
+}
+
+.apply2 {
+  height: 45px;
+  width: 95px;
+  font-size: large;
+}
+
+.siteTop {
+  background-image: url(Assets/bg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  width: 100%;
+}
+
+.heroSection {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 110px;
+  text-align: center;
+}
+
+.headline {
+  margin: 5px;
+  font-size: 5.3rem;
+  width: 80%;
+  line-height: 1.1;
+  padding-top: 100px;
+}
+
+.underline {
+  font-size: 1.5rem;
+  width: 40%;
+  margin-top: 30px;
+}
+
+.myGrid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(12, 100px);
+  margin: 70px;
+  font-size: 1.4rem;
+}
+
+.myGridItem1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.gridPicture {
+  height: 400px;
+  width: 450px;
+}
+
+.myGridItem2 {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  padding: 10px;
+}
+
+.myGridItem2 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+nav a {
+  color: white;
+  font-size: 1.2rem;
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  cursor: pointer;
+}
+
+.headshots {
+  height: 320x;
+  width: 320px;
+  padding: 20px;
+}
+
+.myGrid2 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 400px);
+  margin: 70px;
+}
+
+.myGrid2 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.studenter {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+
+.gridColumn {
+  margin: 20px;
+}
+
+.callToAction {
+  background-color: #4c64ff;
+  height: 500px;
+  font-size: xx-large;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply3 {
+  background-color: white;
+  color: #4c64ff;
+  font-family: "Din Condensed";
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
+.footer {
+  background-color: rgba(238, 233, 233, 0.852);
+  height: 370px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  padding-top: 50px;
+  font-family: "Din Condensed";
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  padding-right: 300px;
+}
+
+.link1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  font-size: larger;
+}
+
+.link2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  font-size: larger;
+}
+
+.footerLogo {
+  justify-content: end;
+  align-items: end;
+}
+
+.logo2 {
+  height: 200px;
+  width: 200px;
+}
+
+.link1 a {
+  font-size: large;
+  padding-bottom: 10px;
+}
+
+.contact {
+  margin-top: 0;
+}
+
+.copyright {
+  text-align: center;
+  background-color: rgb(186, 184, 184);
+  height: 50px;
+  padding: 20px;
+}
+
+.copyright h5 {
+  margin: 0;
+}
